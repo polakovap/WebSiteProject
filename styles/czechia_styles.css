@@ -81,6 +81,11 @@ button
     border-radius: 20px;
     outline: none;
     margin-top: 30px;
+    transition: transform 0.5s;
+}
+button:hover
+{
+    transform: translateY(-10px);
 }
 .card
 {
@@ -94,9 +99,23 @@ button
     margin: 10px 15px;
     background-position: center;
     background-size: cover;
+    transition: transform 0.5s;
 }
+.card:hover
+{
+    transform: translateY(-10px);
+}
+h2
+{
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+.card p
+{
+    text-shadow: 0 0 5px black;
+    font-size: 12px;
 
-
+}
 
 footer
 {
