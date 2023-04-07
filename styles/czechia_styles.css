@@ -21,43 +21,50 @@ box-sizing: border-box;
     display: flex;
     align-items: center;
 }
-.logo
+#logo
 {
     width: 150px;
     cursor: pointer;
+    margin-top: 15px;
 }
-.menu-icon
+button
 {
-    width: 50px;
-    cursor: pointer;
-    margin-left: 40px;
-}
-nav
-{
-flex: 1;
-text-align: right;
-}
-nav ul li
-{
-    list-style: none;
+    text-align: center;
+    width: 120px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: auto;
+    transition: transform 0.5s;
 }
-nav ul li a
+button:hover
+{
+    transform: scale(1.1, 1.1);
+}
+button a
 {
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: black;
 }
-.row
+.content
 {
     display: flex;
-    height: 88%;
+    height: 90%;
     align-items: center;
 }
-.col
+.info
 {
     flex-basis: 50%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 80px;
 }
 h1
 {
@@ -70,33 +77,16 @@ p
     font-size: 15px;
     line-height: 18px;
 }
-button
-{
-    width: 180px;
-    color: black;
-    font-size: 16px;
-    padding: 12px 0;
-    background: white;
-    border: 0;
-    border-radius: 20px;
-    outline: none;
-    margin-top: 30px;
-    transition: transform 0.5s;
-}
-button:hover
-{
-    transform: translateY(-10px);
-}
 .card
 {
     width: 200px;
     height: 230px;
     display: inline-block;
     border-radius: 10px;
-    padding: 15px 25px;
+    padding: 15px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
+    margin: 15px 15px;
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
@@ -105,7 +95,7 @@ button:hover
 {
     transform: translateY(-10px);
 }
-h2
+.card h2
 {
     color: white;
     text-shadow: 0 0 5px #999;
@@ -113,8 +103,9 @@ h2
 .card p
 {
     text-shadow: 0 0 5px black;
-    font-size: 12px;
-
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
 }
 
 footer
