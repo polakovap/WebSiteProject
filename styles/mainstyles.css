@@ -6,6 +6,9 @@ body
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
 }
 header
 {
@@ -63,7 +66,7 @@ footer p
     color: white;
 }
 /*specific styles for main page*/
-.intro
+/* .intro
 {
     color: #2b472b;
     padding-bottom: 20px;
@@ -93,6 +96,19 @@ footer p
     content: "";
     clear: both;
     display: table;
+} */
+main
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+svg
+{
+    display: flex;
+    height: 90%;
+    align-items: center;
 }
 svg path
 {
@@ -105,4 +121,27 @@ svg path:hover
     fill: #6b8d53;
     transition: 0.6s;
     cursor: pointer;
+}
+#top
+{
+    margin-right: auto;
+    border: 5px solid #2b472b;
+    padding: 5px;
+    height: 100%;
+    width: 20%;
+}
+#top h2
+{
+    text-align: center;
+}
+#top ol
+{
+    text-align: center;
+    list-style-position: inside;
+    padding: 10px;
+}
+ol#top li
+{
+    text-align: center;
+    margin-left: 45%;
 }
