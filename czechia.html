@@ -17,47 +17,41 @@
     <link rel="logo" href="images/logo1.jpg">
 </head>
 <body>
-    <div class="container" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/cr1.jpg');">
-        <div class="navbar">
-            <img src="images/photo-output.png" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                </ul>
-            </nav>
-            <img src="images/menu.jpg" class="menu-icon">
-        </div>
+    <main class="container" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/cr1.jpg');">
+        <section class="navbar">
+            <img src="images/photo-output.png" id="logo">
+            <button id="button"><a href="index.html">HOME</a></button>
+        </section>
 
-        <div class="row">
-            <div class="col">
+        <section class="content">
+            <article class="info">
                 <h1>Czech Republic</h1>
                 <p>The Czech Republic, also known as Czechia or historically known as Bohemia, is a landlocked country in Central Europe. 
                     The Czech Republic has a hilly landscape that covers an area of 78,871 square kilometers (30,452 sq mi) 
                     with a mostly temperate continental and oceanic climate. 
                     The capital and largest city is Prague; other major cities and urban areas include Brno, Ostrava, Plzeň and Liberec.
                 </p>
-                <button type="button">Explore</button>
-            </div>
-            <div class="col">
-                <div class="card" style="background-image: url('images/prague.jpeg');">
-                    <h2>Prague</h2>
-                    <p>blah blah blah blah blah blah blah blah</p>
-                </div>
-                <div class="card">
-                    <h2>card 2</h2>
-                    <p>blah blah blah blah blah blah blah blah</p>
-                </div>
-                <div class="card">
-                    <h2>card 3</h2>
-                    <p>blah blah blah blah blah blah blah blah</p>
-                </div>
-                <div class="card">
-                    <h2>card 4</h2>
-                    <p>blah blah blah blah blah blah blah blah</p>
-                </div>
-            </div>
-        </div>
-    </div>
+            </article>
+            <section class="info">
+                <section class="card" style="background-image: linear-gradient(rgba(90,90,90,0.6), rgba(90,90,90,0.6)), url('images/prague.jpeg');">
+                    <h2>Bucket-List</h2>
+                    <p>Click here for the list of all the places you must see during your visit!</p>
+                </section>
+                <section class="card" style="background-image: linear-gradient(rgba(120,120,120,0.5), rgba(120,120,120,0.5)), url('images/kachna.jpg');">
+                    <h2>Food & Drinks</h2>
+                    <p>Check out the tips for traditional dishes and beverages you should try when in a local restaurant or a bar.</p>
+                </section>
+                <section class="card" style="background-image: linear-gradient(rgba(120,120,120,0.5), rgba(120,120,120,0.5)), url('images/jazyk.jpg');">
+                    <h2>Learn Some Czech!</h2>
+                    <p>If you will learn some of these words and phrases, not only it will be very useful but you will make Czech people happy as well.</p>
+                </section>
+                <section class="card" style="background-image: linear-gradient(rgba(120,120,120,0.5), rgba(120,120,120,0.5)), url('images/brana.jpg');">
+                    <h2>10 Interesting Facts about Czechia</h2>
+                    <p>Check out this YouTube video with some fun stuff about Czech Republic.</p>
+                </section>
+            </section>
+        </section>
+    </main>
     <footer>
         <p>Copyright 2023 Petra Poláková</p>
     </footer>
