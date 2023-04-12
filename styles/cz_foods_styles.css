@@ -1,88 +1,201 @@
-/*base styles*/
+/*specific styles for Czechia page*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html{
+    height: 100%;
+}
 body
 {
-    background-color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;  
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
-header
+main
 {
-    color: black;
-    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 #logo
 {
+    width: 150px;
+    margin-top: 15px;
+}
+.navbar h1
+{
     float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 70px;
+    margin-left: 5px;
+    font-size: 30px;
+    margin-top: 10px;
 }
-nav
-{ 
-    background-color: #2b472b; 
-    padding: 5px;
+#backButton
+{
+    display: inline-block;
+    margin-left: auto;
+    cursor: pointer;
+    transition: transform 0.5s;
 }
-nav ul
+#backButton:hover
+{
+    transform: scale(1.1, 1.1);
+}
+#backButton img
+{
+    width: 60px;
+}
+button
 {
     text-align: center;
-    font-size: 1.2em;
-}
-nav ul li
-{
-    list-style-type: none;
-    background-color: white;
-    display: inline;
-    padding: 15px;
-    margin: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-nav ul li:hover
-{
-    background-color: #9fe49f;
-}
-nav ul li a
-{
+    width: 120px;
     color: black;
+    font-size: 20px;
     text-decoration: none;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    display: inline-block;
+    margin-left: 25px;
+    transition: transform 0.5s;
+}
+button:hover
+{
+    transform: scale(1.1, 1.1);
+}
+button a
+{
+    text-decoration: none;
+    color: black;
+}
+header
+{
+    height: auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+h1
+{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+p
+{
+    color: white;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 5% 20px;
+    width: 90%;
+}
+.card
+{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: auto;
+    margin: 15px;
+    background-color: rgba(90,90,90,0.6);
+}
+.card h2
+{
+    color: white;
+    text-align: center;
+    cursor: initial;
+}
+.column
+{
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 480px;
+    float: left;
+    color: #D5D8DC;
+    padding: 10px;
+    cursor: initial;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    columns: 4;
+}
+.dish
+{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.dish img
+{
+    width: 10em;
+    height:10em;
+    object-fit: cover;
+    margin-right: 5px;
+    float:left;
+}
+.desc
+{
+    display: flex;
+    flex-direction: column;
+}
+.desc h2
+{
+    font-size: 15px;
+    float: left;
+}
+.desc p
+{
+    font-size: 13px;
+    text-align: justify;
 }
 footer
 {
     padding: 10px;
-    background-color: #2b472b;
+    background-color: white;
     margin-top: auto;
 }
 footer p
 {
     text-align: center;
-    color: white;
-}
-/*specific styles for main page*/
-.cities
-{
-    color: #2b472b;
-    padding-bottom: 20px;
-    padding-left: 15px;
-}
-.cities h2
-{
-    text-align: center;
-}
-.cities p
-{
-    width: 60%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: left;
-    text-align: justify;
-}
-.cities::after
-{
-    content: "";
-    clear: both;
-    display: table;
+    color: black;
 }
