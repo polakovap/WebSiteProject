@@ -1,4 +1,4 @@
-/*specific styles for Czechia page*/
+/*specific styles for Czech food page*/
 *
 {
     margin: 0;
@@ -29,7 +29,7 @@ main
     margin: 0 auto;
     box-sizing: border-box;
 }
-.navbar
+#navbar
 {
     height: 12%;
     display: flex;
@@ -42,7 +42,7 @@ main
     width: 150px;
     margin-top: 15px;
 }
-.navbar h1
+#navbar h1
 {
     float: left;
     margin-left: 5px;
@@ -89,7 +89,7 @@ button a
     text-decoration: none;
     color: black;
 }
-header
+#main
 {
     height: auto;
     width: 900px;
@@ -120,7 +120,6 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 20px 5% 20px;
@@ -156,8 +155,6 @@ p
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-flow: column wrap;
-    columns: 4;
 }
 .dish
 {
@@ -187,6 +184,29 @@ p
 {
     font-size: 13px;
     text-align: justify;
+}
+#bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    transition: transform 0.5s;
+}
+#bottom:hover
+{
+    transform: scale(1.1, 1.1);
 }
 footer
 {
