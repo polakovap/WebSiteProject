@@ -175,8 +175,8 @@ footer
 }
 footer p
 {
-    margin-top: 3px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px;
     text-align: center;
     color: #eee;
     font-size: 12px;
@@ -187,8 +187,8 @@ footer p
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 4px auto 0px;
-    border-top: 1px solid #eee;
+    margin: 4px auto 4px;
+    border-bottom: 1px solid #eee;
 }
 .links a
 {
@@ -197,12 +197,5 @@ footer p
     color: #eee;
     font-size: 15px;
     margin-right: 5%;
-    margin-bottom: 5px;
-}
-.links h3
-{
-    cursor: initial;
-    font-size: 15px;
-    color: #eee;
-    margin-right: 5%;
+    margin-bottom: 2px;
 }
