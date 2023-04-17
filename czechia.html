@@ -12,15 +12,15 @@
     <meta name="keywords" content="travel, traveler, explore, world, travel tips, must-see, Czech Republic, Prague, Czechia, Czech">
     <meta name="author" content="Petra Poláková">
     <title>Czech Republic</title>
-    <link rel="website icon" type="jpg" href="images/flag.jpg">
+    <link rel="website icon" href="images/flag.jpg">
     <link rel="stylesheet" href="styles/czechia_styles.css">
     <link rel="logo" href="images/logo1.jpg">
 </head>
 <body style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/cr1.jpg');">
     <header id="navbar">
-            <img src="images/photo-output.png" id="logo">
+            <img src="images/photo-output.png" alt="logo" id="logo">
             <h1>Travel Buddy</h1>
-            <button id="button"><a href="index.html">HOME</a></button>
+            <button id="button" onclick="window.location.href = 'index.html';">HOME</button>
     </header>
     <main>
         <header id="main">
@@ -31,7 +31,7 @@
                         The capital and largest city is Prague; other major cities and urban areas include Brno, Ostrava, Plzeň and Liberec.
                     </p>
         </header>
-        <section class="content">
+        <div class="content">
                 <section class="card" style="background-image: linear-gradient(rgba(90,90,90,0.6), rgba(90,90,90,0.6)), url('images/prague.jpeg');">
                     <a href="cz_bucketlist.html">
                         <h2>Bucket-List</h2>
@@ -56,7 +56,7 @@
                     <p>Check out this YouTube video with some fun stuff about Czech Republic.</p>
                     </a>
                 </section>
-        </section>
+            </div>
     </main>
     <footer>
         <p>Copyright &copy; 2023 Petra Poláková</p>
