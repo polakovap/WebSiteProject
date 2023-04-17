@@ -1,4 +1,4 @@
-/*specific styles for Czechia page*/
+/*specific styles for Czechia webpage*/
 *
 {
     margin: 0;
@@ -22,7 +22,7 @@ main
     padding-right: 5%;
     box-sizing: border-box;
 }
-.navbar
+#navbar
 {
     height: 12%;
     display: flex;
@@ -35,7 +35,7 @@ main
     width: 150px;
     margin-top: 15px;
 }
-.navbar h1
+#navbar h1
 {
     float: left;
     margin-left: 5px;
@@ -67,7 +67,7 @@ button a
     text-decoration: none;
     color: black;
 }
-header
+#main
 {
     height: auto;
     width: 900px;
@@ -137,7 +137,6 @@ p
     color: white;
     margin-top: 10px;
 }
-
 footer
 {
     padding: 10px;
