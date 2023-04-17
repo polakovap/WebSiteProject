@@ -12,7 +12,7 @@
     <meta name="keywords" content="vocabulary, useful, phrases, czech language, travel, traveler, explore, world, travel tips, must-see, Czech Republic, Prague, Czechia, Czech">
     <meta name="author" content="Petra Poláková">
     <title>Czech Vocabulary</title>
-    <link rel="website icon" type="jpg" href="images/flag.jpg">
+    <link rel="website icon" href="images/flag.jpg">
     <link rel="stylesheet" href="styles/cz_vocab_styles.css">
     <link rel="logo" href="images/logo1.jpg">
     <style> /*example of internal styles*/
@@ -27,17 +27,17 @@
 </head>
 <body style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/vocab_back1.jpg');">
     <header id="navbar">
-        <img src="images/photo-output.png" id="logo">
+        <img src="images/photo-output.png" id="logo" alt="logo">
         <h1>Travel Buddy</h1>
-        <a id="backButton" href="czechia.html"><img src="images/back_button1.png"></a>
-        <button id="button"><a href="index.html">HOME</a></button>
+        <a id="backButton" href="czechia.html"><img src="images/back_button1.png" alt="back"></a>
+        <button id="button" onclick="window.location.href = 'index.html';">HOME</button>
     </header>
     <main>
         <header id="main">
             <h1>Useful Czech Phrases</h1>
             <p>Let’s learn some czech together so you can surprise locals and make a good impression! We chose a handful of phrases that we believe you will need the most and have multiple opportunities to use them.</p>
         </header>
-                <section class="card">
+                <div class="card">
                     <table>
                         <tr>
                             <th>English</th>
@@ -136,7 +136,7 @@
                             <td>Promiň, neumím moc česky.</td>
                         </tr>
                     </table>
-                </section>
+                </div>
     </main>
     <footer>
         <p>Copyright &copy; 2023 Petra Poláková</p>
