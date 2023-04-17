@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!--The following lines are comments
+    Author : Petra Polakova
+    Date : 16/02/2023
+    Page Description: template
+    Modified: 16/02/2023-->
+<html lang="en"> 
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Subcribe form for weekly travel tips">
+    <meta name="keywords" content="subscribe, weekly travel tips, travel, traveler, explore, world, travel tips, must-see, Czech Republic, Prague, Czechia, Czech">
+    <meta name="author" content="Petra Poláková">
+    <title>Subscribe!</title>
+    <link rel="website icon" type="jpg" href="images/flag.jpg">
+    <link rel="stylesheet" href="styles/form_styles.css">
+    <link rel="logo" href="images/logo1.jpg">
+</head>
+<body style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/backg1.jpg');">
+    <header id="top">
+        <img id="logo" src="images/photo-output.png" alt="logo">
+        <h1>Travel Buddy</h1>
+        <button id="button"><a href="index.html">HOME</a></button>
+    </header>
+    <main>
+        <header id="info">
+            <h2>Subscribe for weekly travel tips</h1>
+            <p>By subscribing for our newsletter you will allow us to sent you e-mails with the hottest travel tips weekly so you will stay inspired for your travels at all times!</p>
+        </header>
+        <section id="card">
+            <form action="http://foo.com" method="get" id="subscribe" action="subscribe.php">
+                <legend>Travel Buddy Subscription</legend>
+                <label for="firstname"><span class="required">First name:</span></label>
+                <input type="text" id="firstname" required><br>
+                <label for="lastname"><span class="required">Last name:</span></label>
+                <input type="text" id="lastname" required><br>
+                <label for="country">Country:</label>
+                <input type="text" id="country"><br>
+                <label for="email"><span class="required">E-mail:</span></label>
+                <input type="text" id="email" required placeholder="name@example.com"><br>
+                <label for="phonenumber">Phone number:</label>
+                <input type="text" id="phonenumber"><br>
+                <section class="buttons">
+                    <input type="submit" name="submit" id="submit" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                </section>
+            </form>
+            <p><span class="required"></span><i> indicates a required field</i></p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023 Petra Poláková</p>
+    </footer>
+</body>
+</html>
