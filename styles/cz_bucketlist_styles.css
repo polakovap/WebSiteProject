@@ -1,4 +1,4 @@
-/*specific styles for Czechia page*/
+/*specific styles for Czech bucket list page*/
 *
 {
     margin: 0;
@@ -24,7 +24,7 @@ main
     margin: 0 auto;
     box-sizing: border-box;
 }
-.navbar
+#navbar
 {
     height: 12%;
     display: flex;
@@ -37,7 +37,7 @@ main
     width: 150px;
     margin-top: 15px;
 }
-.navbar h1
+#navbar h1
 {
     float: left;
     margin-left: 5px;
@@ -84,7 +84,7 @@ button a
     text-decoration: none;
     color: black;
 }
-header
+#main
 {
     height: auto;
     width: 900px;
@@ -144,7 +144,6 @@ p
     margin-top: 10px;
     width: 480px;
     float: left;
-    overflow: hidden; /*will contain if #first is longer than #second*/
     color: #D5D8DC;
     columns: 2;
     padding: 10px;
@@ -153,6 +152,11 @@ p
 .column ul
 {
     margin-left: 20px;
+}
+iframe
+{
+    width: 100%;
+    height: 100%;
 }
 footer
 {
